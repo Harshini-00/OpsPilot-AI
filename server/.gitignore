@@ -1,0 +1,6 @@
+# Server Secrets & Dependencies
+.env
+.env.*
+*.env
+node_modules/
+*.log

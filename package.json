@@ -1,0 +1,13 @@
+{
+  "name": "opspilot-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OpsPilot AI - Operations Agent for Teams",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev"
+  }
+}

@@ -1,0 +1,1582 @@
+[
+  {
+    "id": "op_1791664650968_0d69v",
+    "name": "College Technical Fest 2026",
+    "goal": "Organize our college technical fest in 10 days, including venue booking, sponsorships, event scheduling, and volunteer assignments.",
+    "deadline": "2026-10-20",
+    "teamMembers": [
+      "Alex Rivera (Project Lead)",
+      "Marcus Brody (Logistics & Venue)",
+      "Sarah Chen (DevOps & Tech)",
+      "Priya Patel (Finance & Sponsors)",
+      "Elena Rostova (Mentors & PR)"
+    ],
+    "createdAt": "2026-10-10T20:37:30.968Z",
+    "updatedAt": "2026-10-10T21:28:28.370Z",
+    "tasks": [
+      {
+        "id": "task-1791664650968-1",
+        "title": "Secure Campus Venues and Resource Permits",
+        "description": "Reserve the main auditorium, lab rooms, and outdoor grounds. Acquire university security, AV equipment, and electrical clearance for all fest days.",
+        "owner": "Alex Rivera (Project Lead)",
+        "dueDate": "2026-10-12",
+        "priority": "P0 - Critical",
+        "status": "In Progress",
+        "dependencies": []
+      },
+      {
+        "id": "task-1791664650968-2",
+        "title": "Finalize Core Sponsors and Budget Allocation",
+        "description": "Close outreach to target tech sponsors, sign partnership agreements, collect committed funds, and disburse operational allocations across departments.",
+        "owner": "Marcus Brody (Logistics & Venue)",
+        "dueDate": "2026-10-14",
+        "priority": "P0 - Critical",
+        "status": "Blocked",
+        "dependencies": [
+          "task-1791664650968-1"
+        ]
+      },
+      {
+        "id": "task-1791664650968-3",
+        "title": "Deploy Fest Registration Portal & Scheduling Engine",
+        "description": "Launch the event website with attendee registration, workshop ticketing, live schedule integration, and backend submission review pipelines.",
+        "owner": "Sarah Chen (DevOps & Tech)",
+        "dueDate": "2026-10-16",
+        "priority": "P1 - High",
+        "status": "Blocked",
+        "dependencies": [
+          "task-1791664650968-2"
+        ]
+      },
+      {
+        "id": "task-1791664650968-4",
+        "title": "Confirm Industry Mentors and Launch PR Campaign",
+        "description": "Onboard workshop leads and hackathon judges, finalize travel/honorarium logistics, and release social media blitz and campus-wide promotional material.",
+        "owner": "Priya Patel (Finance & Sponsors)",
+        "dueDate": "2026-10-17",
+        "priority": "P1 - High",
+        "status": "Blocked",
+        "dependencies": [
+          "task-1791664650968-3"
+        ]
+      },
+      {
+        "id": "task-1791664650968-5",
+        "title": "Recruit and Assign Volunteer Crews",
+        "description": "Select student volunteers, assign them to track leads (hospitality, security, stage management, registration desks), and conduct a briefing session.",
+        "owner": "Elena Rostova (Mentors & PR)",
+        "dueDate": "2026-10-18",
+        "priority": "P1 - High",
+        "status": "Blocked",
+        "dependencies": [
+          "task-1791664650968-4"
+        ]
+      },
+      {
+        "id": "task-1791664650968-6",
+        "title": "Conduct Technical Dry Run and Venue Setup",
+        "description": "Test stage audio/visual equipment, verify networking and backup power lines across competition labs, and position sponsor signage and check-in kiosks.",
+        "owner": "Alex Rivera (Project Lead)",
+        "dueDate": "2026-10-19",
+        "priority": "P0 - Critical",
+        "status": "Blocked",
+        "dependencies": [
+          "task-1791664650968-5"
+        ]
+      },
+      {
+        "id": "task-1791664650968-7",
+        "title": "Final Operations Readiness Review and Go-Live Signoff",
+        "description": "Hold executive pre-flight check across finance, logistics, tech, and PR teams; issue emergency escalation protocols and initiate festival opening.",
+        "owner": "Marcus Brody (Logistics & Venue)",
+        "dueDate": "2026-10-20",
+        "priority": "P0 - Critical",
+        "status": "Blocked",
+        "dependencies": [
+          "task-1791664650968-6"
+        ]
+      }
+    ],
+    "activityLog": [
+      {
+        "id": "act_1791664650968",
+        "timestamp": "2026-10-10T20:37:30.968Z",
+        "type": "OPERATION_CREATED",
+        "message": "Operation \"College Technical Fest 2026\" created",
+        "actor": "User"
+      },
+      {
+        "id": "act_1791664650973_ai",
+        "timestamp": "2026-10-10T20:37:30.973Z",
+        "type": "AI_PLAN_GENERATED",
+        "message": "Gemini AI synthesized 7 structured milestones with dependency sequencing.",
+        "actor": "OpsPilot Gemini AI"
+      },
+      {
+        "id": "act_1791664699447_sim1",
+        "timestamp": "2026-10-10T20:38:19.447Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664703003_sim1",
+        "timestamp": "2026-10-10T20:38:23.003Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664706546_sim1",
+        "timestamp": "2026-10-10T20:38:26.546Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664710091_sim1",
+        "timestamp": "2026-10-10T20:38:30.091Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664712168_sim1",
+        "timestamp": "2026-10-10T20:38:32.168Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664715722_sim1",
+        "timestamp": "2026-10-10T20:38:35.722Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664719278_sim1",
+        "timestamp": "2026-10-10T20:38:39.278Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664722828_sim1",
+        "timestamp": "2026-10-10T20:38:42.828Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664726376_sim1",
+        "timestamp": "2026-10-10T20:38:46.376Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664729936_sim1",
+        "timestamp": "2026-10-10T20:38:49.936Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664733495_sim1",
+        "timestamp": "2026-10-10T20:38:53.495Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664737041_sim1",
+        "timestamp": "2026-10-10T20:38:57.041Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664740592_sim1",
+        "timestamp": "2026-10-10T20:39:00.592Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664744152_sim1",
+        "timestamp": "2026-10-10T20:39:04.152Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664747715_sim1",
+        "timestamp": "2026-10-10T20:39:07.715Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664751285_sim1",
+        "timestamp": "2026-10-10T20:39:11.285Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664754851_sim1",
+        "timestamp": "2026-10-10T20:39:14.851Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664758406_sim1",
+        "timestamp": "2026-10-10T20:39:18.406Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664761989_sim1",
+        "timestamp": "2026-10-10T20:39:21.989Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664765546_sim1",
+        "timestamp": "2026-10-10T20:39:25.546Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664769107_sim1",
+        "timestamp": "2026-10-10T20:39:29.107Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664772677_sim1",
+        "timestamp": "2026-10-10T20:39:32.677Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664776260_sim1",
+        "timestamp": "2026-10-10T20:39:36.260Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664779840_sim1",
+        "timestamp": "2026-10-10T20:39:39.840Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664783430_sim1",
+        "timestamp": "2026-10-10T20:39:43.430Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664787010_sim1",
+        "timestamp": "2026-10-10T20:39:47.010Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664790603_sim1",
+        "timestamp": "2026-10-10T20:39:50.603Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664794177_sim1",
+        "timestamp": "2026-10-10T20:39:54.177Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664797771_sim1",
+        "timestamp": "2026-10-10T20:39:57.771Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664801359_sim1",
+        "timestamp": "2026-10-10T20:40:01.359Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664804943_sim1",
+        "timestamp": "2026-10-10T20:40:04.943Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664808548_sim1",
+        "timestamp": "2026-10-10T20:40:08.548Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664812143_sim1",
+        "timestamp": "2026-10-10T20:40:12.143Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664815734_sim1",
+        "timestamp": "2026-10-10T20:40:15.734Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664819341_sim1",
+        "timestamp": "2026-10-10T20:40:19.341Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664822940_sim1",
+        "timestamp": "2026-10-10T20:40:22.940Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664826535_sim1",
+        "timestamp": "2026-10-10T20:40:26.535Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664830122_sim1",
+        "timestamp": "2026-10-10T20:40:30.122Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664833709_sim1",
+        "timestamp": "2026-10-10T20:40:33.710Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664837311_sim1",
+        "timestamp": "2026-10-10T20:40:37.311Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664840914_sim1",
+        "timestamp": "2026-10-10T20:40:40.914Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664844519_sim1",
+        "timestamp": "2026-10-10T20:40:44.519Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664848116_sim1",
+        "timestamp": "2026-10-10T20:40:48.116Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664851714_sim1",
+        "timestamp": "2026-10-10T20:40:51.714Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664855327_sim1",
+        "timestamp": "2026-10-10T20:40:55.327Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664858957_sim1",
+        "timestamp": "2026-10-10T20:40:58.957Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664862557_sim1",
+        "timestamp": "2026-10-10T20:41:02.557Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664866163_sim1",
+        "timestamp": "2026-10-10T20:41:06.163Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664869781_sim1",
+        "timestamp": "2026-10-10T20:41:09.781Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664873401_sim1",
+        "timestamp": "2026-10-10T20:41:13.401Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664877019_sim1",
+        "timestamp": "2026-10-10T20:41:17.019Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664880629_sim1",
+        "timestamp": "2026-10-10T20:41:20.629Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664884249_sim1",
+        "timestamp": "2026-10-10T20:41:24.249Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664887865_sim1",
+        "timestamp": "2026-10-10T20:41:27.865Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664891513_sim1",
+        "timestamp": "2026-10-10T20:41:31.513Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664895164_sim1",
+        "timestamp": "2026-10-10T20:41:35.164Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664898772_sim1",
+        "timestamp": "2026-10-10T20:41:38.772Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664902406_sim1",
+        "timestamp": "2026-10-10T20:41:42.406Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664906025_sim1",
+        "timestamp": "2026-10-10T20:41:46.025Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664909672_sim1",
+        "timestamp": "2026-10-10T20:41:49.672Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664913308_sim1",
+        "timestamp": "2026-10-10T20:41:53.308Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664916957_sim1",
+        "timestamp": "2026-10-10T20:41:56.957Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664920594_sim1",
+        "timestamp": "2026-10-10T20:42:00.594Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664924229_sim1",
+        "timestamp": "2026-10-10T20:42:04.229Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664927843_sim1",
+        "timestamp": "2026-10-10T20:42:07.843Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664931488_sim1",
+        "timestamp": "2026-10-10T20:42:11.488Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664935117_sim1",
+        "timestamp": "2026-10-10T20:42:15.117Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664938751_sim1",
+        "timestamp": "2026-10-10T20:42:18.751Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664942409_sim1",
+        "timestamp": "2026-10-10T20:42:22.409Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664946048_sim1",
+        "timestamp": "2026-10-10T20:42:26.048Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664949689_sim1",
+        "timestamp": "2026-10-10T20:42:29.689Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664953346_sim1",
+        "timestamp": "2026-10-10T20:42:33.346Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664956997_sim1",
+        "timestamp": "2026-10-10T20:42:36.997Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664960636_sim1",
+        "timestamp": "2026-10-10T20:42:40.636Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664964267_sim1",
+        "timestamp": "2026-10-10T20:42:44.267Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664967905_sim1",
+        "timestamp": "2026-10-10T20:42:47.905Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664971572_sim1",
+        "timestamp": "2026-10-10T20:42:51.572Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664975217_sim1",
+        "timestamp": "2026-10-10T20:42:55.217Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664978867_sim1",
+        "timestamp": "2026-10-10T20:42:58.867Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664982515_sim1",
+        "timestamp": "2026-10-10T20:43:02.515Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664986180_sim1",
+        "timestamp": "2026-10-10T20:43:06.180Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664989850_sim1",
+        "timestamp": "2026-10-10T20:43:09.850Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664993549_sim1",
+        "timestamp": "2026-10-10T20:43:13.549Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664997202_sim1",
+        "timestamp": "2026-10-10T20:43:17.202Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791665000878_sim1",
+        "timestamp": "2026-10-10T20:43:20.878Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791665004566_sim1",
+        "timestamp": "2026-10-10T20:43:24.566Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791665008257_sim1",
+        "timestamp": "2026-10-10T20:43:28.257Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791665011930_sim1",
+        "timestamp": "2026-10-10T20:43:31.930Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791665015593_sim1",
+        "timestamp": "2026-10-10T20:43:35.593Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791665019297_sim1",
+        "timestamp": "2026-10-10T20:43:39.297Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791665022974_sim1",
+        "timestamp": "2026-10-10T20:43:42.974Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791665026666_sim1",
+        "timestamp": "2026-10-10T20:43:46.666Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791665030374_sim1",
+        "timestamp": "2026-10-10T20:43:50.374Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791667125418",
+        "timestamp": "2026-10-10T21:18:45.418Z",
+        "type": "TASK_CREATED",
+        "message": "Created task \"Test Task Creation\" assigned to Alex Rivera",
+        "actor": "User"
+      },
+      {
+        "id": "act_1791667125440",
+        "timestamp": "2026-10-10T21:18:45.440Z",
+        "type": "TASK_DELETED",
+        "message": "Deleted task \"Test Task Creation\"",
+        "actor": "User"
+      },
+      {
+        "id": "act_1791667708337",
+        "timestamp": "2026-10-10T21:28:28.337Z",
+        "type": "TASK_CREATED",
+        "message": "Created task \"Verification Milestone: Load Testing & Staging Validation\" assigned to Alex Rivera (Fest Lead)",
+        "actor": "User"
+      },
+      {
+        "id": "act_1791667708358",
+        "timestamp": "2026-10-10T21:28:28.358Z",
+        "type": "STATUS_UPDATED",
+        "message": "Task \"Verification Milestone: Load Testing & Staging Validation\" moved from To Do to In Progress",
+        "actor": "Operations Lead"
+      },
+      {
+        "id": "act_1791667708370",
+        "timestamp": "2026-10-10T21:28:28.370Z",
+        "type": "TASK_DELETED",
+        "message": "Deleted task \"Verification Milestone: Load Testing & Staging Validation\"",
+        "actor": "User"
+      }
+    ]
+  },
+  {
+    "id": "op_1791664456135_7jdet",
+    "name": "product lanuch",
+    "goal": "marketing strategies so the product should go into people",
+    "deadline": "2026-10-17",
+    "teamMembers": [
+      "Alex Rivera (Lead)",
+      "Sarah Chen (DevOps)",
+      "Marcus Brody (Logistics)",
+      "Elena Rostova (QA)"
+    ],
+    "createdAt": "2026-10-10T20:34:16.135Z",
+    "updatedAt": "2026-10-10T20:35:15.240Z",
+    "tasks": [
+      {
+        "id": "task-1791664456135-1",
+        "title": "Architecture & Requirements Alignment: product lanuch",
+        "description": "Formulate core technical specifications and milestones for \"marketing strategies so the product should go into people\".",
+        "owner": "Alex Rivera (Lead)",
+        "dueDate": "2026-10-11",
+        "priority": "P0 - Critical",
+        "status": "In Progress",
+        "dependencies": []
+      },
+      {
+        "id": "task-1791664456135-2",
+        "title": "Infrastructure & Operational Tooling Provisioning",
+        "description": "Configure runtime environments, cloud permissions, logging, and monitoring.",
+        "owner": "Sarah Chen (DevOps)",
+        "dueDate": "2026-10-12",
+        "priority": "P0 - Critical",
+        "status": "Blocked",
+        "dependencies": [
+          "task-1791664456135-1"
+        ]
+      },
+      {
+        "id": "task-1791664456135-3",
+        "title": "Core Workflow Implementation & Integration",
+        "description": "Implement essential functional modules and automated pipelines.",
+        "owner": "Marcus Brody (Logistics)",
+        "dueDate": "2026-10-14",
+        "priority": "P1 - High",
+        "status": "Blocked",
+        "dependencies": [
+          "task-1791664456135-2"
+        ]
+      },
+      {
+        "id": "task-1791664456135-4",
+        "title": "Quality Assurance, Load Simulation & Vulnerability Check",
+        "description": "Execute stress testing, failure mode recovery tests, and security audits.",
+        "owner": "Elena Rostova (QA)",
+        "dueDate": "2026-10-15",
+        "priority": "P2 - Medium",
+        "status": "Blocked",
+        "dependencies": [
+          "task-1791664456135-3"
+        ]
+      },
+      {
+        "id": "task-1791664456135-5",
+        "title": "Deployment Readiness Review & Final Sign-off",
+        "description": "Conduct go/no-go stakeholder briefing and release runbook.",
+        "owner": "Alex Rivera (Lead)",
+        "dueDate": "2026-10-17",
+        "priority": "P1 - High",
+        "status": "Blocked",
+        "dependencies": [
+          "task-1791664456135-4"
+        ]
+      }
+    ],
+    "activityLog": [
+      {
+        "id": "act_1791664456135",
+        "timestamp": "2026-10-10T20:34:16.135Z",
+        "type": "OPERATION_CREATED",
+        "message": "Operation \"product lanuch\" created",
+        "actor": "User"
+      },
+      {
+        "id": "act_1791664456140_ai",
+        "timestamp": "2026-10-10T20:34:16.140Z",
+        "type": "AI_PLAN_GENERATED",
+        "message": "Gemini AI synthesized 5 structured milestones with dependency sequencing.",
+        "actor": "OpsPilot Gemini AI"
+      },
+      {
+        "id": "act_1791664511676_sim1",
+        "timestamp": "2026-10-10T20:35:11.676Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791664515240_sim1",
+        "timestamp": "2026-10-10T20:35:15.240Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Alex Rivera (Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Alex Rivera (Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      }
+    ]
+  },
+  {
+    "id": "op_1791638156789_sltqz",
+    "name": "Tri-City Inter-College AI Hackathon",
+    "goal": "Organize our college technical fest in 10 days with auditorium booking, guest speakers, sponsorship, and hackathon tracks.",
+    "deadline": "2026-10-20",
+    "teamMembers": [
+      "Alex Rivera (Project Lead)",
+      "Marcus Brody (Logistics & Venue)",
+      "Sarah Chen (DevOps & Tech)",
+      "Priya Patel (Finance & Sponsors)",
+      "Elena Rostova (Mentors & PR)"
+    ],
+    "createdAt": "2026-10-10T13:15:56.789Z",
+    "updatedAt": "2026-10-10T19:38:59.598Z",
+    "tasks": [
+      {
+        "id": "task-1791638156786-1",
+        "title": "Core Committee Formation & Budget Sanctioning",
+        "description": "Establish organizing team verticals (Tech, Logistics, Sponsors, PR) and allocate financial funds.",
+        "owner": "Alex Rivera (Project Lead)",
+        "dueDate": "2026-10-11",
+        "priority": "P0 - Critical",
+        "status": "In Progress",
+        "dependencies": []
+      },
+      {
+        "id": "task-1791638156786-2",
+        "title": "Auditorium Booking & Campus Network / Wi-Fi Verification",
+        "description": "Reserve college main hall, inspect sound/projectors, and verify gigabit LAN/Wi-Fi bandwidth with IT cell.",
+        "owner": "Marcus Brody (Logistics & Venue)",
+        "dueDate": "2026-10-13",
+        "priority": "P0 - Critical",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791638156786-1"
+        ]
+      },
+      {
+        "id": "task-1791638156786-3",
+        "title": "Sponsorship Outreach & Industry Judge Confirmation",
+        "description": "Send sponsorship packages, confirm AI/tech judges, and finalize jury evaluation rubrics.",
+        "owner": "Sarah Chen (DevOps & Tech)",
+        "dueDate": "2026-10-14",
+        "priority": "P1 - High",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791638156786-1"
+        ]
+      },
+      {
+        "id": "task-1791638156786-4",
+        "title": "Fest Registration Portal & Campus PR Blitz",
+        "description": "Deploy online participant registration website, post posters across departments, and coordinate social media.",
+        "owner": "Priya Patel (Finance & Sponsors)",
+        "dueDate": "2026-10-16",
+        "priority": "P1 - High",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791638156786-2"
+        ]
+      },
+      {
+        "id": "task-1791638156786-5",
+        "title": "Technical Problem Statements & Hacker Kits Preparation",
+        "description": "Curate challenge problem statements, configure cloud compute credits, and assemble hacker badges/swag.",
+        "owner": "Marcus Brody (Logistics & Venue)",
+        "dueDate": "2026-10-17",
+        "priority": "P1 - High",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791638156786-3"
+        ]
+      },
+      {
+        "id": "task-1791638156786-6",
+        "title": "Full Logistics Dry Run & Grand Inauguration Readiness",
+        "description": "Complete final sound check, volunteer briefing, stage flow coordination, and welcome VIP guests.",
+        "owner": "Alex Rivera (Project Lead)",
+        "dueDate": "2026-10-20",
+        "priority": "P0 - Critical",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791638156786-4",
+          "task-1791638156786-5"
+        ]
+      }
+    ],
+    "activityLog": [
+      {
+        "id": "act_1791638156789",
+        "timestamp": "2026-10-10T13:15:56.789Z",
+        "type": "OPERATION_CREATED",
+        "message": "Operation \"Tri-City Inter-College AI Hackathon\" created",
+        "actor": "User"
+      },
+      {
+        "id": "act_1791661072940",
+        "timestamp": "2026-10-10T19:37:52.940Z",
+        "type": "TASK_CREATED",
+        "message": "Created task \"Automated Atlas Integration Verification Task\" assigned to Alex Rivera (Project Lead)",
+        "actor": "User"
+      },
+      {
+        "id": "act_1791661072953",
+        "timestamp": "2026-10-10T19:37:52.953Z",
+        "type": "STATUS_UPDATED",
+        "message": "Task \"Automated Atlas Integration Verification Task\" moved from In Progress to Completed",
+        "actor": "Automated Test"
+      },
+      {
+        "id": "act_1791661072965",
+        "timestamp": "2026-10-10T19:37:52.965Z",
+        "type": "TASK_DELETED",
+        "message": "Deleted task \"Automated Atlas Integration Verification Task\"",
+        "actor": "User"
+      },
+      {
+        "id": "act_1791661139572",
+        "timestamp": "2026-10-10T19:38:59.572Z",
+        "type": "TASK_CREATED",
+        "message": "Created task \"Automated Atlas Integration Verification Task\" assigned to Alex Rivera (Project Lead)",
+        "actor": "User"
+      },
+      {
+        "id": "act_1791661139586",
+        "timestamp": "2026-10-10T19:38:59.586Z",
+        "type": "STATUS_UPDATED",
+        "message": "Task \"Automated Atlas Integration Verification Task\" moved from In Progress to Completed",
+        "actor": "Automated Test"
+      },
+      {
+        "id": "act_1791661139598",
+        "timestamp": "2026-10-10T19:38:59.598Z",
+        "type": "TASK_DELETED",
+        "message": "Deleted task \"Automated Atlas Integration Verification Task\"",
+        "actor": "User"
+      }
+    ]
+  },
+  {
+    "id": "op_1791636833093_u6b9x",
+    "name": "Tri-City Inter-College AI Hackathon",
+    "goal": "Organize our college technical fest in 10 days with auditorium booking, guest speakers, sponsorship, and hackathon tracks.",
+    "deadline": "2026-10-20",
+    "teamMembers": [
+      "Alex Rivera (Project Lead)",
+      "Marcus Brody (Logistics & Venue)",
+      "Sarah Chen (DevOps & Tech)",
+      "Priya Patel (Finance & Sponsors)",
+      "Elena Rostova (Mentors & PR)"
+    ],
+    "createdAt": "2026-10-10T12:53:53.093Z",
+    "updatedAt": "2026-10-10T12:53:53.093Z",
+    "tasks": [
+      {
+        "id": "task-1791636833091-1",
+        "title": "Core Committee Formation & Budget Sanctioning",
+        "description": "Establish organizing team verticals (Tech, Logistics, Sponsors, PR) and allocate financial funds.",
+        "owner": "Alex Rivera (Project Lead)",
+        "dueDate": "2026-10-11",
+        "priority": "P0 - Critical",
+        "status": "In Progress",
+        "dependencies": []
+      },
+      {
+        "id": "task-1791636833091-2",
+        "title": "Auditorium Booking & Campus Network / Wi-Fi Verification",
+        "description": "Reserve college main hall, inspect sound/projectors, and verify gigabit LAN/Wi-Fi bandwidth with IT cell.",
+        "owner": "Marcus Brody (Logistics & Venue)",
+        "dueDate": "2026-10-13",
+        "priority": "P0 - Critical",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791636833091-1"
+        ]
+      },
+      {
+        "id": "task-1791636833091-3",
+        "title": "Sponsorship Outreach & Industry Judge Confirmation",
+        "description": "Send sponsorship packages, confirm AI/tech judges, and finalize jury evaluation rubrics.",
+        "owner": "Sarah Chen (DevOps & Tech)",
+        "dueDate": "2026-10-14",
+        "priority": "P1 - High",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791636833091-1"
+        ]
+      },
+      {
+        "id": "task-1791636833091-4",
+        "title": "Fest Registration Portal & Campus PR Blitz",
+        "description": "Deploy online participant registration website, post posters across departments, and coordinate social media.",
+        "owner": "Priya Patel (Finance & Sponsors)",
+        "dueDate": "2026-10-16",
+        "priority": "P1 - High",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791636833091-2"
+        ]
+      },
+      {
+        "id": "task-1791636833091-5",
+        "title": "Technical Problem Statements & Hacker Kits Preparation",
+        "description": "Curate challenge problem statements, configure cloud compute credits, and assemble hacker badges/swag.",
+        "owner": "Marcus Brody (Logistics & Venue)",
+        "dueDate": "2026-10-17",
+        "priority": "P1 - High",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791636833091-3"
+        ]
+      },
+      {
+        "id": "task-1791636833091-6",
+        "title": "Full Logistics Dry Run & Grand Inauguration Readiness",
+        "description": "Complete final sound check, volunteer briefing, stage flow coordination, and welcome VIP guests.",
+        "owner": "Alex Rivera (Project Lead)",
+        "dueDate": "2026-10-20",
+        "priority": "P0 - Critical",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791636833091-4",
+          "task-1791636833091-5"
+        ]
+      }
+    ],
+    "activityLog": [
+      {
+        "id": "act_1791636833093",
+        "timestamp": "2026-10-10T12:53:53.093Z",
+        "type": "OPERATION_CREATED",
+        "message": "Operation \"Tri-City Inter-College AI Hackathon\" created",
+        "actor": "User"
+      }
+    ]
+  },
+  {
+    "id": "op_1791622930942_lsqbc",
+    "name": "Tri-City Inter-College AI Hackathon",
+    "goal": "Organize our college technical fest in 10 days with auditorium booking, guest speakers, sponsorship, and hackathon tracks.",
+    "deadline": "2026-10-20",
+    "teamMembers": [
+      "Alex Rivera (Project Lead)",
+      "Marcus Brody (Logistics & Venue)",
+      "Sarah Chen (DevOps & Tech)",
+      "Priya Patel (Finance & Sponsors)",
+      "Elena Rostova (Mentors & PR)"
+    ],
+    "createdAt": "2026-10-10T09:02:10.942Z",
+    "updatedAt": "2026-10-10T09:05:17.021Z",
+    "tasks": [
+      {
+        "id": "task-1791622930938-1",
+        "title": "Core Committee Formation & Budget Sanctioning",
+        "description": "Establish organizing team verticals (Tech, Logistics, Sponsors, PR) and allocate financial funds.",
+        "owner": "Alex Rivera (Project Lead)",
+        "dueDate": "2026-10-11",
+        "priority": "P0 - Critical",
+        "status": "In Progress",
+        "dependencies": []
+      },
+      {
+        "id": "task-1791622930938-2",
+        "title": "Auditorium Booking & Campus Network / Wi-Fi Verification",
+        "description": "Reserve college main hall, inspect sound/projectors, and verify gigabit LAN/Wi-Fi bandwidth with IT cell.",
+        "owner": "Marcus Brody (Logistics & Venue)",
+        "dueDate": "2026-10-13",
+        "priority": "P0 - Critical",
+        "status": "In Progress",
+        "dependencies": [
+          "task-1791622930938-1"
+        ]
+      },
+      {
+        "id": "task-1791622930938-3",
+        "title": "Sponsorship Outreach & Industry Judge Confirmation",
+        "description": "Send sponsorship packages, confirm AI/tech judges, and finalize jury evaluation rubrics.",
+        "owner": "Sarah Chen (DevOps & Tech)",
+        "dueDate": "2026-10-15",
+        "priority": "P1 - High",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791622930938-1"
+        ]
+      },
+      {
+        "id": "task-1791622930938-4",
+        "title": "Fest Registration Portal & Campus PR Blitz",
+        "description": "Deploy online participant registration website, post posters across departments, and coordinate social media.",
+        "owner": "Priya Patel (Finance & Sponsors)",
+        "dueDate": "2026-10-17",
+        "priority": "P1 - High",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791622930938-2"
+        ]
+      },
+      {
+        "id": "task-1791622930938-5",
+        "title": "Technical Problem Statements & Hacker Kits Preparation",
+        "description": "Curate challenge problem statements, configure cloud compute credits, and assemble hacker badges/swag.",
+        "owner": "Marcus Brody (Logistics & Venue)",
+        "dueDate": "2026-10-18",
+        "priority": "P1 - High",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791622930938-3"
+        ]
+      },
+      {
+        "id": "task-1791622930938-6",
+        "title": "Full Logistics Dry Run & Grand Inauguration Readiness",
+        "description": "Complete final sound check, volunteer briefing, stage flow coordination, and welcome VIP guests.",
+        "owner": "Alex Rivera (Project Lead)",
+        "dueDate": "2026-10-20",
+        "priority": "P0 - Critical",
+        "status": "To Do",
+        "dependencies": [
+          "task-1791622930938-4",
+          "task-1791622930938-5"
+        ]
+      }
+    ],
+    "activityLog": [
+      {
+        "id": "act_1791622930942",
+        "timestamp": "2026-10-10T09:02:10.942Z",
+        "type": "OPERATION_CREATED",
+        "message": "Operation \"Tri-City Inter-College AI Hackathon\" created",
+        "actor": "User"
+      },
+      {
+        "id": "act_1791623117021",
+        "timestamp": "2026-10-10T09:05:17.021Z",
+        "type": "STATUS_UPDATED",
+        "message": "Task \"Auditorium Booking & Campus Network / Wi-Fi Verification\" moved from To Do to In Progress",
+        "actor": "User"
+      }
+    ]
+  },
+  {
+    "id": "op_techfest_2026",
+    "name": "TechFest 2026: Inter-College AI Hackathon & Tech Expo",
+    "goal": "Execute a premier 48-hour AI Hackathon for 500+ participants with cloud GPU infrastructure, mentor tracks, keynote presentations, and industry judging.",
+    "deadline": "2026-10-25",
+    "teamMembers": [
+      "Alex Rivera (Project Lead)",
+      "Sarah Chen (DevOps & Infrastructure)",
+      "Marcus Brody (Logistics & Venue)",
+      "Priya Patel (Sponsor & Finance)",
+      "Elena Rostova (Judges & Mentors)"
+    ],
+    "createdAt": "2026-10-01T09:00:00.000Z",
+    "updatedAt": "2026-10-10T11:34:15.230Z",
+    "tasks": [
+      {
+        "id": "task-101",
+        "title": "Venue & High-Density Wi-Fi Infrastructure Setup",
+        "description": "Secure dual gigabit fiber connections, configure 15 enterprise Wi-Fi APs, and deploy backup power generators for main auditorium.",
+        "owner": "Sarah Chen (DevOps & Infrastructure)",
+        "dueDate": "2026-10-14",
+        "priority": "P0 - Critical",
+        "status": "In Progress",
+        "dependencies": []
+      },
+      {
+        "id": "task-102",
+        "title": "High-Performance Cloud GPU Cluster Provisioning",
+        "description": "Provision A100 GPU compute instances and distribute API tokens to hackathon teams for model fine-tuning.",
+        "owner": "Sarah Chen (DevOps & Infrastructure)",
+        "dueDate": "2026-10-12",
+        "priority": "P0 - Critical",
+        "status": "To Do",
+        "dependencies": []
+      },
+      {
+        "id": "task-103",
+        "title": "Automated Judging Platform & Live Leaderboard",
+        "description": "Deploy scoring web app, rubric calculators, and real-time projector dashboard for 12 industry judges.",
+        "owner": "Alex Rivera (Project Lead)",
+        "dueDate": "2026-10-15",
+        "priority": "P1 - High",
+        "status": "Blocked",
+        "dependencies": [
+          "task-102"
+        ]
+      },
+      {
+        "id": "task-104",
+        "title": "Keynote Speaker Itinerary & AV Production Run",
+        "description": "Confirm flight schedules, stage AV sound check, and presentation decks for 4 AI keynote speakers.",
+        "owner": "Elena Rostova (Judges & Mentors)",
+        "dueDate": "2026-10-16",
+        "priority": "P2 - Medium",
+        "status": "To Do",
+        "dependencies": []
+      },
+      {
+        "id": "task-105",
+        "title": "Sponsor Swag & Prize Distribution Logistics",
+        "description": "Assemble $25k prize checks, customized trophies, and sponsor welcome packages for all hacker booths.",
+        "owner": "Priya Patel (Sponsor & Finance)",
+        "dueDate": "2026-10-05",
+        "priority": "P2 - Medium",
+        "status": "To Do",
+        "dependencies": []
+      },
+      {
+        "id": "task-106",
+        "title": "Participant Discord & Team Registration Finalization",
+        "description": "Verify team check-ins, send emergency broadcast channels, and release pre-hackathon setup documentation.",
+        "owner": "Alex Rivera (Project Lead)",
+        "dueDate": "2026-10-06",
+        "priority": "P1 - High",
+        "status": "To Do",
+        "dependencies": []
+      }
+    ],
+    "activityLog": [
+      {
+        "id": "act-1",
+        "timestamp": "2026-10-01T09:00:00.000Z",
+        "type": "OPERATION_CREATED",
+        "message": "Operation initialized by Alex Rivera (Project Lead)",
+        "actor": "Alex Rivera"
+      },
+      {
+        "id": "act-2",
+        "timestamp": "2026-10-05T14:30:00.000Z",
+        "type": "TASK_COMPLETED",
+        "message": "Task 'Sponsor Swag & Prize Distribution Logistics' marked Completed",
+        "actor": "Priya Patel"
+      },
+      {
+        "id": "act-3",
+        "timestamp": "2026-10-06T18:10:00.000Z",
+        "type": "TASK_COMPLETED",
+        "message": "Task 'Participant Discord & Team Registration Finalization' marked Completed",
+        "actor": "Alex Rivera"
+      },
+      {
+        "id": "act-4",
+        "timestamp": "2026-10-08T11:00:00.000Z",
+        "type": "RISK_DETECTED",
+        "message": "Risk Alert: Task 'Venue & High-Density Wi-Fi' passed due date while still In Progress. Downstream task 'Cloud GPU Provisioning' is blocked.",
+        "actor": "OpsPilot Risk Engine"
+      },
+      {
+        "id": "act_1791631975829_sim1",
+        "timestamp": "2026-10-10T11:32:55.829Z",
+        "type": "AI_DISPATCH",
+        "message": "[SIMULATED AGENT ACTION] Dispatched kickoff milestones to Marcus Brody (Logistics & Venue), Elena Rostova (Judges & Mentors), Priya Patel (Sponsor & Finance), Alex Rivera (Project Lead). Gated tasks marked Blocked.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "To maximize team throughput, unblocked tasks were dispatched immediately to their assigned owners (Marcus Brody (Logistics & Venue), Elena Rostova (Judges & Mentors), Priya Patel (Sponsor & Finance), Alex Rivera (Project Lead)). Downstream milestones were explicitly marked \"Blocked\" to prevent premature execution and wasted effort."
+      },
+      {
+        "id": "act_1791631993881_sim4",
+        "timestamp": "2026-10-10T11:33:13.881Z",
+        "type": "HUMAN_APPROVAL_PENDING",
+        "message": "[SIMULATED AGENT ACTION] Consequential Recovery Plan formulated for \"Venue & High-Density Wi-Fi Infrastructure Setup\". Awaiting Human Sign-off before reallocating Alex Rivera (Project Lead).",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "Consequential changes (reassigning human team members and decoupling dependencies) require strict human-in-the-loop authorization before execution. Agent has paused simulation to await Ops Lead approval."
+      },
+      {
+        "id": "act_1791632029715_human_approved",
+        "timestamp": "2026-10-10T11:33:49.715Z",
+        "type": "HUMAN_APPROVAL",
+        "message": "[HUMAN SIGN-OFF] Ops Lead APPROVED consequential recovery: Reallocated Sarah Chen (DevOps & Infrastructure) & decoupled dependency on \"Venue & High-Density Wi-Fi Infrastructure Setup\".",
+        "actor": "Ops Lead (Human Approval)",
+        "isSimulated": false,
+        "agentRationale": "Human approval granted. Sarah Chen paired on venue infrastructure and unblocked GPU cluster."
+      },
+      {
+        "id": "act_1791632055229_sim_reset",
+        "timestamp": "2026-10-10T11:34:15.229Z",
+        "type": "SIMULATION_RESET",
+        "message": "[SIMULATED AGENT ACTION] Simulation timeline reset to Day 1 baseline.",
+        "actor": "OpsPilot Autonomous Agent",
+        "isSimulated": true,
+        "agentRationale": "Resetting operational environment to initial baseline for replay demonstration."
+      }
+    ]
+  }
+]
